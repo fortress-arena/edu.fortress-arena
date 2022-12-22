@@ -1,9 +1,12 @@
 import { server } from "../../../config";
+import Content from '../../../components/Content'
 
 const koreanArticle = ({ article }) => {
     return (
         <>
-         <h1>{article.title}</h1>
+         <div style={{backgroundColor: article.background_color}}>
+          <Content article={article} />
+         </div>
         </>
     )
 }

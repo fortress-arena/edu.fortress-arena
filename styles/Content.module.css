@@ -1,0 +1,26 @@
+.title {
+    font-family: 'LINE Seed Sans-Bd';
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 79px;
+    text-align: center;
+    color: #1D1D1D;
+    margin: 0;
+}
+
+.layout {
+    width: 100%;
+    padding-top: 160px;
+}
+
+@media (max-width: 900px) {
+    .title {
+        max-width: 320px;
+        margin: auto;
+        font-size: 48px;
+    }
+
+    .layout {
+        padding-top: 100px;
+    }
+}
