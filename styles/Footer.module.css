@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #1D1D1D;
+}
+
+.link {
+    font-family: 'LINE Seed Sans-Rg';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-decoration-line: underline;
+    color: #AFAFAF;
+}

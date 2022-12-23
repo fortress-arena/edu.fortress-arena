@@ -1,6 +1,7 @@
 export const articles = [
     {
         id: '1',
+        lang: 'kr',
         title: 'P2E는 끝났다?',
         path: 'is-P2E-Dead',
         background_color: '#E9F3F9',
@@ -16,6 +17,7 @@ export const articles = [
     },
     {
         id: '2',
+        lang: 'kr',
         title: '크립토 게임은 언제 유명해지나요?',
         path: 'When-Cryptocurrency-Games-Become-Popular',
         background_color: '#FAE6E6',
@@ -32,6 +34,7 @@ export const articles = [
     },
     {
         id: '3',
+        lang: 'kr',
         title: '웹3 게임 시장에서의 스팀',
         path: 'Next-Version-of-Steam-in-Web3-Gaming',
         background_color: '#E6FAE6',
@@ -47,6 +50,7 @@ export const articles = [
     },
     {
         id: '4',
+        lang: 'kr',
         title: '2023년의 P2E 안드로이드 게임 트렌드',
         path: 'P2E-Android-Game-Trend-in-2023',
         background_color: '#FFEEDB',
@@ -62,6 +66,7 @@ export const articles = [
     },
     {
         id: '5',
+        lang: 'kr',
         title: '블록체인 게임의 다이나믹한 사이클',
         path: 'A-Dynamic-History-of-Blockchain-Games',
         background_color: '#FFF1FF',
