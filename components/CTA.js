@@ -1,5 +1,5 @@
 import ctaStyles from '../styles/CTA.module.css';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import Link from 'next/link';
 import DiscordIcon from '../public/images/discord-icon.png'
 

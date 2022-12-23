@@ -1,5 +1,5 @@
 import sectionStyles from '../styles/SectionOdd.module.css';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 
 const SectionOdd = ({title, desc, image}) => {
   return (
