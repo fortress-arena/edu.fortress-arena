@@ -16,7 +16,7 @@ const Content = ({article}) => {
        <SectionEven title={article.second_section_title} desc={article.second_section_desc} image={SecondImage} />
        <SectionOdd title={article.third_section_title} desc={article.third_section_desc} image={ThirdImage} />
        <SectionEven title={article.fourth_section_title} desc={article.fourth_section_desc} image={FourthImage} />
-       <CTA cta={article.call_to_action} image={CTAImage} />
+       <CTA cta={article.call_to_action} image={CTAImage} lang={article.lang} />
     </div>
   )
 }

@@ -1,14 +1,20 @@
 import '../styles/globals.css';
 import '../public/fonts/style.css';
 import Head from 'next/head';
+import { NextUIProvider } from "@nextui-org/react"
+import {SSRProvider} from '@react-aria/ssr';
+
+
 
 export default function App({ Component, pageProps }) {
   return (
-    <>
-      <Head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      </Head>
-      <Component {...pageProps} />
-    </>
+      <NextUIProvider> 
+        <Head>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        </Head>
+        <SSRProvider>
+          <Component {...pageProps} />
+        </SSRProvider>
+      </NextUIProvider>
   ) 
 }

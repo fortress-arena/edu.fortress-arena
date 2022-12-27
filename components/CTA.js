@@ -3,7 +3,9 @@ import Image from "next/image";
 import Link from 'next/link';
 import DiscordIcon from '../public/images/discord-icon.png'
 
-const CTA = ({cta, image}) => {
+const CTA = ({cta, image, lang}) => {
+  const kr = "kr"
+
   return (
       <div className={ctaStyles.container}>
           <div className={ctaStyles.content}>
@@ -34,7 +36,7 @@ const CTA = ({cta, image}) => {
                               maxWidth: "100%",
                               height: "auto"
                           }} />
-                      Join Discord
+                      {lang == kr ? '디스코드 바로가기' : 'Join Discord'}
                   </div>
               </Link>
           </div>

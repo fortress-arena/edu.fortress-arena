@@ -1,3 +1,15 @@
 body {
   margin: 0;
 }
+
+.nextui-popover-content-container {
+  border-radius: 10px;
+}
+
+.nextui-button-icon-right, .nextui-checkmark {
+  display: none;
+}
+
+.nextui-popover-content-container {
+  top: 65px;
+}

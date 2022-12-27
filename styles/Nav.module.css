@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    place-content: space-between;
+    max-width: 1280px;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+
+.language {
+    display: flex;
+    flex-direction: column;
+    padding: 1px;
+    width: 87px;
+    height: 46px;
+    background: #FFFFFF;
+    border: 2px solid #1D1D1D;
+    border-radius: 10px;
+}
+
+.link {
+    background-color: #FFFFFF;
+}
+
+.anchor {
+    color: #1D1D1D;
+    display: flex;
+    flex-direction: row;
+}
+
+.flag {
+    margin-right: 11px;
+}

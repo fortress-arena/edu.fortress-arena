@@ -1,13 +1,15 @@
 import { server } from "../../../config";
 import Content from '../../../components/Content'
 import Footer from "../../../components/footer";
+import Nav from "../../../components/Nav";
 
-const koreanArticle = ({ article, titles }) => {
+const koreanArticle = ({ article, titles, paths }) => {
     return (
         <>
          <div style={{backgroundColor: article.background_color}}>
+          <Nav article={article} />
           <Content article={article} />
-          <Footer titles={titles} />
+          <Footer titles={titles} paths={paths} />
          </div>
         </>
     )
@@ -19,12 +21,15 @@ export const getStaticProps = async (context) => {
 
   const res_2 = await fetch(`${server}/api/articles/kr`)
   const articles = await res_2.json()
-  const titles = articles.map((article) => article.title)
+
+  const titles = articles.map(t => t.title)
+  const paths = articles.map(p => p.path)
 
   return {
     props: {
       article,
       titles,
+      paths,
     },
   }
 }
