@@ -16,12 +16,12 @@
     margin: auto;
     height: 406px;
     width: 406px;
-    grid-column: 1/4;
+    grid-column: 1/5;
 }
 
 .textArea {
     margin: auto;
-    grid-column: 6/13;
+    grid-column: 5/13;
 }
 
 

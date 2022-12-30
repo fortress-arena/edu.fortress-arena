@@ -44,6 +44,14 @@
     border-radius: 50px;
 }
 
+.button:hover {
+    background: #DFDFDF;
+}
+
+.button:active {
+    background: #AFAFAF;
+}
+
 .link {
     font-family: 'LINE Seed Sans-Bd';
     font-style: normal;

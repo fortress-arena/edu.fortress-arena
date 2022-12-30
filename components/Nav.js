@@ -20,7 +20,7 @@ const Nav = ({article}) => {
         <div>
             <Dropdown className={navStyles.language}>
                 <Dropdown.Button flat css={{ borderRadius: '10px', border: '$space$1 solid #1D1D1D', background: '$white800', color: '#1D1D1D', padding: '12px', height: '46px;' }}>
-                    <Image src={ selected == kr ? EnFlag : KrFlag } className={navStyles.flag} alt="logo" width="auto" height="auto" /> {selected}
+                    <Image src={ article.lang.toUpperCase() == kr ? KrFlag : EnFlag } className={navStyles.flag} alt="logo" width="auto" height="auto" /> {selected}
                 </Dropdown.Button>
                 <Dropdown.Menu
                     color="default"
