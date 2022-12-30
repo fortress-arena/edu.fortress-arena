@@ -1,7 +1,7 @@
 import sectionStyles from '../styles/SectionOdd.module.css';
 import Image from "next/image";
 
-const SectionOdd = ({title, desc, image}) => {
+const SectionOdd = ({title, desc_1, desc_2, image}) => {
   return (
       <div className={sectionStyles.container}>
           <div className={sectionStyles.content}>
@@ -10,7 +10,10 @@ const SectionOdd = ({title, desc, image}) => {
                   {title}
                   </h2>
                   <div className={sectionStyles.desc}>
-                  {desc}
+                  {desc_1}
+                  </div>
+                  <div className={sectionStyles.desc}>
+                  {desc_2}
                   </div>
               </div>
               <div className={sectionStyles.imageArea}>

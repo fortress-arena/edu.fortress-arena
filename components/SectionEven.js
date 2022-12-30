@@ -1,7 +1,7 @@
 import sectionStyles from '../styles/SectionEven.module.css';
 import Image from "next/image";
 
-const SectionEven = ({title, desc, image}) => {
+const SectionEven = ({title, desc_1, desc_2, image}) => {
   return (
       <div className={sectionStyles.container}>
           <div className={sectionStyles.content}>
@@ -23,7 +23,10 @@ const SectionEven = ({title, desc, image}) => {
                   {title}
                   </h2>
                   <div className={sectionStyles.desc}>
-                  {desc}
+                  {desc_1}
+                  </div>
+                  <div className={sectionStyles.desc}>
+                  {desc_2}
                   </div>
               </div>
           </div>

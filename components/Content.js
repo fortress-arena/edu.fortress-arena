@@ -12,10 +12,10 @@ const Content = ({article}) => {
   return (
     <div className={contentStyles.layout}>
        <h1 className={contentStyles.title}>{article.title}</h1>
-       <SectionOdd title={article.first_section_title} desc={article.first_section_desc} image={FirstImage} />
-       <SectionEven title={article.second_section_title} desc={article.second_section_desc} image={SecondImage} />
-       <SectionOdd title={article.third_section_title} desc={article.third_section_desc} image={ThirdImage} />
-       <SectionEven title={article.fourth_section_title} desc={article.fourth_section_desc} image={FourthImage} />
+       <SectionOdd title={article.first_section_title} desc_1={article.first_section_desc_1} desc_2={article.first_section_desc_2} image={FirstImage} />
+       <SectionEven title={article.second_section_title} desc_1={article.second_section_desc_1} desc_2={article.second_section_desc_2} image={SecondImage} />
+       <SectionOdd title={article.third_section_title} desc_1={article.third_section_desc_1} desc_2={article.third_section_desc_2} image={ThirdImage} />
+       <SectionEven title={article.fourth_section_title} desc_1={article.fourth_section_desc_1} desc_2={article.fourth_section_desc_2} image={FourthImage} />
        <CTA cta={article.call_to_action} image={CTAImage} lang={article.lang} />
     </div>
   )

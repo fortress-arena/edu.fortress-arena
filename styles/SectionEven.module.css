@@ -39,6 +39,7 @@
     font-size: 22px;
     line-height: 150%;
     color: #1D1D1D;
+    margin-bottom: 25px;
 }
 
 @media (max-width: 900px) {
