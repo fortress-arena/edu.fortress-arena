@@ -2,10 +2,16 @@ import { server } from "../../../config";
 import Content from '../../../components/Content'
 import Footer from "../../../components/footer";
 import Nav from "../../../components/Nav";
+import Head from 'next/head';
 
 const koreanArticle = ({ article, titles, paths }) => {
     return (
         <>
+         <Head>
+          <title>{article.title ? article.title : 'fortress arena education'}</title>
+          <meta name="description" content={article.desc} key="desc" />
+          <meta name="keywords" content={article.keywords} />
+         </Head>
          <div style={{backgroundColor: article.background_color}}>
           <Nav article={article} />
           <Content article={article} />
