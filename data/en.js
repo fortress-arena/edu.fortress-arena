@@ -19,7 +19,8 @@ export const articles = [
         fourth_section_title: 'What\'s next for P2E games?',
         fourth_section_desc_1: 'No matter how well you add Web3 features, the most important thing is that the game should be fun. In essence, games must be fun so that gamers can become part of the game community and enjoy the added Web3 features with various forms of P2E. The community of Web3 P2E games should be filled with gamers who are more curious about the content of the next updated game, rather than people who are worried about how much to earn and lose.',
         fourth_section_desc_2: 'P2E games in the future are not standardized games where you can go to a higher rank by spending more money, but we think the next step is for gamers to grow together as the game grows and to get back the right to supply goods in the game.돈을 더 많이 쓰면 상위 랭크로 갈 수 있는 획일화된 게임이 아니라 게이머도 게임이 성장할수록 같이 성장하며 게임 내의 재화의 공급 같은 권한도 게이머들이 다시 돌려받는 것이 다음 단계라고 생각합니다.',
-        call_to_action: 'Fortress Arena, a Web3 game, needs a lot of gamers who genuinely love the game. If you want to grow with us, please participate in the Discord and give us your opinions.',
+        call_to_action_1: 'Fortress Arena, a Web3 game, needs a lot of gamers who genuinely love the game.',
+        call_to_action_2: 'If you want to grow with us, please participate in the Discord and give us your opinions.',
     },
     {
         id: '2',
@@ -41,7 +42,8 @@ export const articles = [
         fourth_section_title: 'What will be Crypto games in 2023',
         fourth_section_desc_1: 'When a high-quality game using blockchain comes out, you will definitely see many gamers in the Web3 game market. Of course, there are limitations of blockchain that need to be addressed before that. For example, the blockchain should be faster and the fees for using the blockchain should be much cheaper.',
         fourth_section_desc_2: 'And it should be easier to create an account on the blockchain that owns the items received in the game. On the blockchain, builders are solving technical limitations one by one that gamers will not feel uncomfortable with, and many things can be solved in 2023, so we think we may see the trend of crypto games in 2023.',
-        call_to_action: 'We, Fortress Arena taem, need a lot of gamers who genuinely love the game. If you want to solve the technical limitations together, please join us on the discord and give us your opinions.',
+        call_to_action_1: 'We, Fortress Arena taem, need a lot of gamers who genuinely love the game.',
+        call_to_action_2: 'If you want to solve the technical limitations together, please join us on the discord and give us your opinions.',
         sources: 'https://dappradar.com/blog/dappradar-x-bga-games-report-q3-2022',
     },
     {
@@ -64,7 +66,8 @@ export const articles = [
         fourth_section_title: 'Characteristics of the web3 gaming platform',
         fourth_section_desc_1: 'Steam\'s Web 3 version will specialize in a few features. The first is game exchange with gamers. Game CDs from 20 years ago became NFTs, so games purchased by gamers are returned to gamers instead of saving in a centralized platform. In other words, gamers can exchange for other games after playing enough. In addition to games, items or goods made with NFTs can be exchanged.',
         fourth_section_desc_2: 'The second is that the game\'s data is more usable. Since Steam\'s video games are mostly for single-player, the data stored from playing is limited, but when using the blockchain, a web 3 technology, a lot of data is uploaded to the blockchain, so you can see what choices other players are making and what items they are holding. etc. is easier to see. Finally, features such as tokenomics and staking that were not used in Web 2 may be added. Since goods and items within Web 3 games will be tokenized, the platform will also provide ways to use the tokens outside the game.',
-        call_to_action: 'We, Fortress Arena taem, need a lot of gamers who genuinely love the game. If you want to create the web 3 game market together, please join us on Discord and give us your opinions.',
+        call_to_action_1: 'We, Fortress Arena taem, need a lot of gamers who genuinely love the game.',
+        call_to_action_2: 'If you want to create the web 3 game market together, please join us on Discord and give us your opinions.',
     },
     {
         id: '4',
@@ -86,7 +89,8 @@ export const articles = [
         fourth_section_title: 'The last puzzle of the P2E game',
         fourth_section_desc_1: 'Last but not least, games should be fun. Existing P2E games are played to make money rather than for fun. There is also a tendency to call existing P2E games as GameFi in the form of combining games with finance.',
         fourth_section_desc_2: 'The games that will be reorganized in 2023 will come out with a purpose for game rather than money. Regardless of NFTs and tokens\' price, it refers to games in which players buy in-game items and the number of players is large because the game is fun.',
-        call_to_action: 'We, Fortress Arena, need a lot of gamers who genuinely love the game. If you want to make Fortress Arena a P2E Android trend game in 2023, please join us on Discord and give us your opinions.',
+        call_to_action_1: 'We, Fortress Arena, need a lot of gamers who genuinely love the game.',
+        call_to_action_2: 'If you want to make Fortress Arena a P2E Android trend game in 2023, please join us on Discord and give us your opinions.',
     },
     {
         id: '5',
@@ -108,6 +112,7 @@ export const articles = [
         fourth_section_title: 'The Next Blockchain Game?',
         fourth_section_desc_1: 'It seems to have a similar cycle with a new blockchain game coming out every few years, but it\'s getting better in many respects. It is evolving to be more and more compatible with blockchain in games, and the quality of games and player aspects are also evolving.',
         fourth_section_desc_2: 'The current bad coin market is a great time to find a new blockchain game. We will witness another trend of blockchain games in the year when the decline of the crypto market stops and becomes active again.',
-        call_to_action: 'We, Fortress Arena team, need a lot of gamers who genuinely love the game. If you are interested in making the next blockchain game together, please join us on Discord and give us your opinions.',
+        call_to_action_1: 'We, Fortress Arena team, need a lot of gamers who genuinely love the game.',
+        call_to_action_2: 'If you are interested in making the next blockchain game together, please join us on Discord and give us your opinions.',
     },
 ]

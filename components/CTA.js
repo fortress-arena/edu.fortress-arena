@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from 'next/link';
 import DiscordIcon from '../public/images/discord-icon.png'
 
-const CTA = ({cta, image, lang}) => {
+const CTA = ({cta_1, cta_2, image, lang}) => {
   const kr = "kr"
 
   return (
@@ -23,7 +23,10 @@ const CTA = ({cta, image, lang}) => {
                       }} />
               </div>
               <div className={ctaStyles.textArea}>
-                  {cta}
+                  {cta_1}
+              </div>
+              <div className={ctaStyles.textArea}>
+                  {cta_2}
               </div>
               <Link href="https://discord.gg/JU8QhRePvP" target="_blank" className={ctaStyles.link}>
                   <div className={ctaStyles.button}>

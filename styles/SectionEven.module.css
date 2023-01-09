@@ -45,7 +45,7 @@
 @media (max-width: 900px) {
     .content {
         padding: 100px 16px;
-        max-width: 320px;
+        min-width: 320px;
         display: flex;
         flex-direction: column-reverse;
     }
@@ -61,5 +61,11 @@
 
     .desc {
         font-size: 18px;
+    }
+}
+
+@media (max-width: 360px) {
+    .imageArea {
+        width: auto;
     }
 }
