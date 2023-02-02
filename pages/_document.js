@@ -7,14 +7,14 @@ export default function Document() {
     <Html lang="en">
       <Head>
         {CssBaseline.flush()}
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-ERB0S32XGS" strategy="afterInteractive" />
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-EHW4EY8CXP" strategy="afterInteractive" />
         <Script id="google-analytics" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){window.dataLayer.push(arguments);}
             gtag('js', new Date());
 
-            gtag('config', 'G-ERB0S32XGS');
+            gtag('config', 'G-EHW4EY8CXP');
           `}
         </Script>
         <Script id="google-tag-manager" strategy="afterInteractive">
